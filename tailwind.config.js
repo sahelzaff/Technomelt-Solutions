@@ -7,10 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      // Add the custom colors
+      colors: {
+        'tmc-black': '#1a1d28',
+        'tmc-red': '#d21317',
+      },
+
+      // Add the Roboto and Open Sans font configurations
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+        opensans: ['Open Sans', 'sans-serif'],
       },
     },
   },
