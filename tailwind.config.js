@@ -7,13 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // Add the custom colors
       colors: {
         'tmc-black': '#1a1d28',
         'tmc-red': '#d21317',
       },
-
-      // Add the Roboto and Open Sans font configurations
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
         opensans: ['Open Sans', 'sans-serif'],
@@ -21,4 +18,4 @@ module.exports = {
     },
   },
   plugins: [],
-};
+}
