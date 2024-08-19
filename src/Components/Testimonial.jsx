@@ -3,8 +3,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import assets from '../../public/assets/assets';
 import './Components.css'; 
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+
 
 const testimonials = [
     {
